@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "877840539118",
+    "firebase_url": "https://tracksideapp.firebaseio.com",
+    "project_id": "tracksideapp",
+    "storage_bucket": "tracksideapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:877840539118:android:eace03a62a5e08de",
+        "android_client_info": {
+          "package_name": "com.example.trackside"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "877840539118-submfl4h22q315snefiaiseuqgkag1ad.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.trackside",
+            "certificate_hash": "605f289feeb45238c60fb837abb61968eee21042"
+          }
+        },
+        {
+          "client_id": "877840539118-lke7n85uin8coc6qab1tfjhaqogo9umu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCk5uBky3jU502o7sKjCXCk6d6eHMISYL8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "877840539118-lke7n85uin8coc6qab1tfjhaqogo9umu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
