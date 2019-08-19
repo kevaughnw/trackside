@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:trackside/home.dart';
-import 'package:trackside/sign_in.dart';
+import 'package:TrackSide/home.dart';
+// import 'package:TrackSide/sign_in.dart';
 
 class LoginPage extends StatefulWidget {
   @override
@@ -12,14 +12,21 @@ class _LoginPageState extends State<LoginPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-        color: Colors.white,
+        decoration: BoxDecoration(
+          image: DecorationImage(
+            image: AssetImage("assets/Track_side_bg.png"),
+            fit: BoxFit.cover,
+          ),
+        ),
         child: Center(
           child: Column(
             mainAxisSize: MainAxisSize.max,
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
-              FlutterLogo(size: 150),
-              SizedBox(height: 50),
+              new Image(
+                  image: new AssetImage(
+                      "assets/Track_side_logo_transparent.png")),
+              // SizedBox(height: 75),
               _signInButton(),
             ],
           ),
@@ -32,7 +39,7 @@ class _LoginPageState extends State<LoginPage> {
     return OutlineButton(
       splashColor: Colors.grey,
       onPressed: () {
-        signInWithGoogle().whenComplete(() {
+        // signInWithGoogle().whenComplete(() {
           Navigator.of(context).push(
             MaterialPageRoute(
               builder: (context) {
@@ -40,7 +47,7 @@ class _LoginPageState extends State<LoginPage> {
               },
             ),
           );
-        });
+        // });
       },
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(40)),
       highlightElevation: 0,
